@@ -1,25 +1,27 @@
-/* Color variables */
 :root {
-  --white-color: #fff;
-  --bg-color: #fff;
+  --white-color: #e2d5d5;
+  --bg-color: #f8f3f3;
   --gray-color: #ccc;
 }
 
-/* Changing background color */
 body {
   background: var(--bg-color) !important;
 }
 
-/* Changing link color */
 .nav-item .nav-link {
-  color: var(--white-color);
+  text-decoration-color: black;
+  color:rgb(0, 0, 0);
+  text-transform: capitalize;
+  text-decoration:double;
+  background-color:rgb(245, 239, 239);
+  text-emphasis-style:var(--white-color);
 }
-/* Hero section background image */
+
 .hero {
-    background-color:rgb(77, 14, 14);
+    background-color:rgb(12, 11, 11);
     background:scroll;
   height: 100vh;
-  background-image: url("background.jpg");
+  background-image: url("backk.avif");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -41,8 +43,8 @@ body {
   position: relative;
 }
 
-/* Timeline background line */
 #about .img::before {
+  background-color: aliceblue;
   content: "";
   left: 50%;
   width: 4px;
@@ -74,12 +76,11 @@ footer .social-icons a {
   width: 230px;
 }
 
-/* Contact section background image */
 #contact {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  background-image: url("portfolio.jpg");
+  background-image: url("backkkk.avif");
 }
 
 @media screen and (max-width: 990px) {
